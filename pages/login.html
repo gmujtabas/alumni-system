@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
+
 <head>
+  <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alumni System - Login</title>
@@ -8,31 +10,51 @@
 
 <body>
 
-  <div>
-    <h1>Alumni System</h1>
-    <p>Login to your Alumni Account</p>
+ <div class="header">
 
-    <a href="index.html">Home</a> |
-    <a href="login.html">Login</a> |
-    <a href="register.html">Register</a>
-  </div>
+   <div class="logo">
+     <a href="index.html">
+       <img src="images/logo-white.png" alt="Alumni System Logo">
+     </a>
 
-  <hr>
+     <h1>Alumni System</h1>
+   </div>
 
-  <div>
+   <div class="navigation">
+     <a href="index.html">Home</a>
+     <a href="login.html">Login</a>
+     <a href="register.html">Register</a>
+     <a href="profile.html">Profile</a>
+     <a href="alumni.html">Alumni</a>
+   </div>
+
+ </div>
+
+  <div class="login-container">
+
     <h2>Login</h2>
+
+    <p><u>Login to your Alumni Account</u></p>
 
     <form>
 
       <p>
         <label for="username">Username:</label>
       </p>
-      <input type="text" id="username" name="username" placeholder="Enter your username">
+
+      <input type="text"
+             id="username"
+             name="username"
+             placeholder="Enter your username">
 
       <p>
         <label for="password">Password:</label>
       </p>
-      <input type="password" id="password" name="password" placeholder="Enter your password">
+
+      <input type="password"
+             id="password"
+             name="password"
+             placeholder="Enter your password">
 
       <p>
         <input type="submit" value="Login">
@@ -40,20 +62,17 @@
       </p>
 
     </form>
-  </div>
 
-  <hr>
-
-  <div>
     <p>Don't have an account?</p>
+
     <a href="register.html">Create a new account</a>
+
   </div>
 
-  <hr>
-
-  <div>
+  <div class="footer">
     <p>&copy; 2026 Alumni System. All Rights Reserved.</p>
   </div>
 
 </body>
+
 </html>

@@ -1,0 +1,323 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.header {
+  background-color: #011C37;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 85px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.welcome {
+  background-color: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.welcome h2 {
+  color: #011C37;
+}
+
+.features {
+  background-color: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.features h2 {
+  color: #011C37;
+}
+
+.features li {
+  margin: 10px;
+}
+
+.join {
+  background-color: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.join h2 {
+  color: #011C37;
+}
+
+button {
+  background-color: #011C37;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #02345f;
+}
+
+.footer {
+  background-color: #011C37;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+
+.register-container {
+  background-color: white;
+  width: 450px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.register-container h2 {
+  color: #011C37;
+}
+
+.register-container label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.register-container input[type="submit"],
+.register-container input[type="reset"] {
+  background-color: #011C37;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.register-container input[type="submit"]:hover,
+.register-container input[type="reset"]:hover {
+  background-color: #02345f;
+}
+
+.register-container a {
+  color: #011C37;
+  text-decoration: none;
+}
+
+.register-container a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.login-container {
+  background-color: white;
+  width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #011C37;
+  font-size: 30px;
+}
+
+.login-container label {
+  font-weight: bold;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.login-container input[type="submit"],
+.login-container input[type="reset"] {
+  background-color: #011C37;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover,
+.login-container input[type="reset"]:hover {
+  background-color: #02345f;
+}
+
+.login-container a {
+  color: #011C37;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.profile-container {
+  background-color: white;
+  width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.profile-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #011C37;
+}
+
+.profile-container h2 {
+  color: #011C37;
+  margin-top: 20px;
+}
+
+.profile-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.profile-info p {
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-info strong {
+  color: #011C37;
+}
+
+.profile-container button {
+  background-color: #011C37;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+}
+
+.profile-container button a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-container button:hover {
+  background-color: #02345f;
+}
+
+.profile-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #011C37;
+}
+
+
+
+.alumni-container {
+  background-color: white;
+  width: 90%;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.alumni-container h2 {
+  color: #011C37;
+  margin-bottom: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #011C37;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+
+
+.footer {
+  background-color: #011C37;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
