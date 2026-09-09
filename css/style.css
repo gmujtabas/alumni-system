@@ -5,6 +5,10 @@ body {
   color: #333;
 }
 
+
+
+
+
 .header {
   background-color: #011C37;
   color: white;
@@ -17,6 +21,7 @@ body {
 .header h1 {
   margin: 0;
 }
+
 
 .logo {
   display: flex;
@@ -64,6 +69,11 @@ body {
   border: 1px solid #ddd;
 }
 
+
+
+
+
+
 .features h2 {
   color: #011C37;
 }
@@ -102,13 +112,12 @@ button:hover {
   background-color: #02345f;
 }
 
-.footer {
-  background-color: #011C37;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 30px;
-}
+
+
+
+
+
+
 
 
 .register-container {
@@ -164,6 +173,12 @@ button:hover {
 
 
 
+
+
+
+
+
+
 .login-container {
   background-color: white;
   width: 450px;
@@ -212,6 +227,12 @@ button:hover {
 .login-container a:hover {
   text-decoration: underline;
 }
+
+
+
+
+
+
 
 
 
@@ -278,6 +299,14 @@ button:hover {
 
 
 
+
+
+
+
+
+
+
+
 .alumni-container {
   background-color: white;
   width: 90%;
@@ -311,6 +340,9 @@ td {
 tr:hover {
   background-color: #f2f2f2;
 }
+
+
+
 
 
 
